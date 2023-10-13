@@ -13,7 +13,7 @@ Dive into the world of image recognition and see the power of machine learning i
 ## Video demonstration:
 
 <p align="center">
-  <img src="https://github.com/Kirilloao/HotDogOrNot/blob/main/hotdotApp.gif" width="300"/>
+  <img src="https://github.com/Kirilloao/HotDogOrNot/blob/main/hotDog.gif" width="300"/>
 </p>
 
 ## Links:
