@@ -12,7 +12,7 @@
 		3C82C06F2AD81E5700575FEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C06E2AD81E5700575FEF /* ViewController.swift */; };
 		3C82C0742AD81E5900575FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C82C0732AD81E5900575FEF /* Assets.xcassets */; };
 		3C82C0772AD81E5900575FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C82C0752AD81E5900575FEF /* LaunchScreen.storyboard */; };
-		3C82C0822AD81F4700575FEF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C0812AD81F4700575FEF /* Inceptionv3.mlmodel */; };
+		3C82C0842AD9482700575FEF /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C0832AD9482700575FEF /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		3C82C0732AD81E5900575FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C82C0762AD81E5900575FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C82C0782AD81E5900575FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C82C0812AD81F4700575FEF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		3C82C0832AD9482700575FEF /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		3C82C0802AD81ECD00575FEF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3C82C0812AD81F4700575FEF /* Inceptionv3.mlmodel */,
+				3C82C0832AD9482700575FEF /* MobileNetV2.mlmodel */,
 				3C82C0732AD81E5900575FEF /* Assets.xcassets */,
 				3C82C0752AD81E5900575FEF /* LaunchScreen.storyboard */,
 			);
@@ -162,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C82C06F2AD81E5700575FEF /* ViewController.swift in Sources */,
-				3C82C0822AD81F4700575FEF /* Inceptionv3.mlmodel in Sources */,
 				3C82C06B2AD81E5700575FEF /* AppDelegate.swift in Sources */,
+				3C82C0842AD9482700575FEF /* MobileNetV2.mlmodel in Sources */,
 				3C82C06D2AD81E5700575FEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

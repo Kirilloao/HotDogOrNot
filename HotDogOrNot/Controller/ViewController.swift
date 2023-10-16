@@ -95,11 +95,11 @@ final class ViewController: UIViewController {
     private func showAnswer(with isRightAnswer: Bool) {
         if isRightAnswer {
             answerView.image = UIImage(named: "correct")
-            answerLabel.text = "Yes, It's HotDog!"
+            answerLabel.text = "Yes, It's a HotDog!"
             answerLabel.textColor = #colorLiteral(red: 0.2951729596, green: 0.6820793748, blue: 0.311968863, alpha: 1)
         } else {
             answerView.image = UIImage(named: "incorrect")
-            answerLabel.text = "No, It's not HotDog!"
+            answerLabel.text = "No, It's not a HotDog!"
             answerLabel.textColor = #colorLiteral(red: 0.8569052815, green: 0.2289541364, blue: 0.237477541, alpha: 1)
         }
         answerView.isHidden = false
@@ -124,7 +124,7 @@ extension ViewController: UIImagePickerControllerDelegate {
         let config = MLModelConfiguration()
         
         do {
-            let model = try VNCoreMLModel(for: Inceptionv3(configuration: config).model)
+            let model = try VNCoreMLModel(for: MobileNetV2(configuration: config).model)
             
             let request = VNCoreMLRequest(model: model) { request, error in
                 guard let results = request.results as? [VNClassificationObservation],
