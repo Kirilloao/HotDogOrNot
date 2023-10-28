@@ -1,7 +1,9 @@
 # HotDogOrNot 🌭
 
 ## Tecnical Stack:
-* UIKit, CoreML, NoStoryboard
+* UIKit
+* CoreML
+* NoStoryboard
 
 ## Description:
 Discover what's on your plate!
